@@ -1,0 +1,56 @@
+button {
+    border-radius: 50px;
+    border: none;
+    background-color: #256b3471;
+    color: #2fc8ff73;
+    cursor: pointer;
+    width: 150px;
+    height: 100px;
+    font-size: 3rem;
+}
+
+button:hover{
+    background-color: #256b34a6;
+
+}
+button:active{
+    background-color: #256b34;
+
+}
+
+#keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
+}
+
+#stopwatch {
+    background-color: #000000e7;
+    max-width: 600px;
+    border-radius: 20px;
+    margin: auto; /* Centers the stopwatch container */
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    color: rgb(147, 164, 121);
+    background-color: #000000e7;
+    padding: 40px 0;
+    text-align: center;
+    border: none;
+    font-size: 5rem;
+    box-sizing: border-box; 
+    cursor: default;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh; 
+    background-color: #00b3ff3a;
+}
